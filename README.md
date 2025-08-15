@@ -91,7 +91,7 @@ java -cp bin TaskManagerProjectExecution
 ### Double Node
 ![DoubleNode](uml-diagrams/Double_Node.png)
 
-### Double Linked List
+### Doubly Linked List
 ![DoublyLinkedList](uml-diagrams/Doubly_Linked_List.png)
 
 ### Task
