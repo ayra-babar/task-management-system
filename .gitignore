@@ -1,0 +1,10 @@
+# Ignore compiled Java files
+bin/
+*.class
+
+# Ignore IDE settings
+.project
+.classpath
+.settings/
+.idea/
+*.iml
