@@ -2,9 +2,14 @@
 bin/
 *.class
 
-# Ignore IDE settings
+# Ignore IDE/project settings
 .project
 .classpath
 .settings/
 .idea/
 *.iml
+
+# Ignore OS-generated files
+desktop.ini
+Thumbs.db
+.DS_Store
