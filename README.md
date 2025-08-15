@@ -1,11 +1,13 @@
 # Task Management System
 
-This project is a Task Management System that allows users to make, manage, prioritize, and edit tasks using advanced data structures. It allows for task storage, task system history, and task analytics using the following data structures:
+**Task Management System** allows users to make, manage, prioritize, and edit tasks using advanced data structures. It allows for task storage, task system history, and task analytics using the following data structures:
 - Doubly Linked Lists
 - Binary Search Trees
 - Priority Queues
 
 ## Project Structure
+
+```
 task-management-system/
 ├── README.md
 ├── uml-diagrams/
@@ -25,7 +27,10 @@ task-management-system/
 │ ├── TaskManagerProjectExecution.java
 │ └── TreeNode.java
 
+```
+
 ## Features
+
 **Task Operations**
 - Create, edit, and delete tasks
 - Clear all tasks
@@ -37,31 +42,32 @@ task-management-system/
 - View tasks by date range
 
 ## Dependencies
-- Java 17+ (or later)
-- Git Bash (Windows) or terminal (macOS/Linux)
+
+- **Java 17+** (or later)
+- **Git Bash** (Windows) or **terminal** (macOS/Linux)
 
 ## Build & Run Instructions
 
-1) Ensure Java JDK 17+ is installed  
+1) Ensure **Java JDK 17+** is installed  
 Verify installation by running:  
 ```bash
 java -version
 javac -version
 ```
-2) Ensure Git Bash is installed and being used as your terminal (Windows only).
+2) Ensure **Git Bash** is installed and being used as your terminal (Windows only).
 
-     macOS and Linux users can use the built-in terminal.
+     macOS and Linux users can use the **built-in terminal**.
 
-3) Open Git Bash (Windows) or your terminal (macOS/Linux) and navigate to the project directory. For example:
-Windows (Git Bash example):
+3) Open **Git Bash (Windows)** or your **terminal (macOS/Linux)** and navigate to the project directory. For example:
+**Windows (Git Bash example):**
 ```bash
 cd "/c/Users/User/Desktop/task_management_system"
 ```
-macOS/Linux:
+**macOS/Linux:**
 ```bash
 cd ~/Desktop/task_management_system
 ```
-4) Compile the Java source files into a bin/ folder
+4) Compile the Java source files into a **bin/ folder**
 ```bash
 mkdir -p bin
 javac -d bin src/*.java
@@ -78,22 +84,23 @@ java -cp bin TaskManagerProjectExecution
 - View tasks by priority or date range
 
 ## UML Diagrams
-**Binary Search Tree**
+
+### BinarySearchTree
 ![BinarySearchTree](uml-diagrams/BST.png)
 
-**Double Node**
+### Double Node
 ![DoubleNode](uml-diagrams/Double_Node.png)
 
-**Double Linked List**
+### Double Linked List
 ![DoublyLinkedList](uml-diagrams/Double_Linked_List.png)
 
-**Task**
+### Task
 ![Task](uml-diagrams/Task.png)
 
-**Task Manager**
+### Task Manager
 ![TaskManager](uml-diagrams/Task_Manager.png)
 
-**Tree Node**
+### Tree Node
 ![TreeNode](uml-diagrams/Tree_Node.png)
 
 ## Author
@@ -101,4 +108,4 @@ java -cp bin TaskManagerProjectExecution
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License.
